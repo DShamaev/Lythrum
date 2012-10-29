@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CE2418163ECC570030E7F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CE2417163ECC570030E7F0 /* QuartzCore.framework */; };
+		E1CE2421163ED3600030E7F0 /* LYPaintLayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE2420163ED3600030E7F0 /* LYPaintLayerDelegate.m */; };
+		E1F521911624640200400689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F521901624640200400689 /* UIKit.framework */; };
+		E1F521931624640200400689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F521921624640200400689 /* Foundation.framework */; };
+		E1F521951624640200400689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F521941624640200400689 /* CoreGraphics.framework */; };
+		E1F5219B1624640200400689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1F521991624640200400689 /* InfoPlist.strings */; };
+		E1F5219D1624640200400689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F5219C1624640200400689 /* main.m */; };
+		E1F521A11624640200400689 /* LYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F521A01624640200400689 /* LYAppDelegate.m */; };
+		E1F521A31624640200400689 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F521A21624640200400689 /* Default.png */; };
+		E1F521A51624640200400689 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F521A41624640200400689 /* Default@2x.png */; };
+		E1F521A71624640200400689 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F521A61624640200400689 /* Default-568h@2x.png */; };
+		E1F521B21624672500400689 /* LYPaintScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F521B01624672500400689 /* LYPaintScreenViewController.m */; };
+		E1F521B31624672500400689 /* LYPaintScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F521B11624672500400689 /* LYPaintScreenViewController.xib */; };
+		E1F521B81624723C00400689 /* LYPaintLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F521B71624723C00400689 /* LYPaintLayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1CE2417163ECC570030E7F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E1CE241F163ED3600030E7F0 /* LYPaintLayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LYPaintLayerDelegate.h; path = Model/LYPaintLayerDelegate.h; sourceTree = "<group>"; };
+		E1CE2420163ED3600030E7F0 /* LYPaintLayerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LYPaintLayerDelegate.m; path = Model/LYPaintLayerDelegate.m; sourceTree = "<group>"; };
+		E1F5218C1624640200400689 /* Lythrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lythrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F521901624640200400689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1F521921624640200400689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1F521941624640200400689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1F521981624640200400689 /* Lythrum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lythrum-Info.plist"; sourceTree = "<group>"; };
+		E1F5219A1624640200400689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1F5219C1624640200400689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1F5219E1624640200400689 /* Lythrum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lythrum-Prefix.pch"; sourceTree = "<group>"; };
+		E1F5219F1624640200400689 /* LYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAppDelegate.h; sourceTree = "<group>"; };
+		E1F521A01624640200400689 /* LYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAppDelegate.m; sourceTree = "<group>"; };
+		E1F521A21624640200400689 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E1F521A41624640200400689 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E1F521A61624640200400689 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E1F521AF1624672500400689 /* LYPaintScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LYPaintScreenViewController.h; path = ViewControllers/PaintScreen/LYPaintScreenViewController.h; sourceTree = "<group>"; };
+		E1F521B01624672500400689 /* LYPaintScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LYPaintScreenViewController.m; path = ViewControllers/PaintScreen/LYPaintScreenViewController.m; sourceTree = "<group>"; };
+		E1F521B11624672500400689 /* LYPaintScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LYPaintScreenViewController.xib; path = ViewControllers/PaintScreen/LYPaintScreenViewController.xib; sourceTree = "<group>"; };
+		E1F521B61624723C00400689 /* LYPaintLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LYPaintLayerView.h; path = Views/PaintLayer/LYPaintLayerView.h; sourceTree = "<group>"; };
+		E1F521B71624723C00400689 /* LYPaintLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LYPaintLayerView.m; path = Views/PaintLayer/LYPaintLayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1F521891624640200400689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CE2418163ECC570030E7F0 /* QuartzCore.framework in Frameworks */,
+				E1F521911624640200400689 /* UIKit.framework in Frameworks */,
+				E1F521931624640200400689 /* Foundation.framework in Frameworks */,
+				E1F521951624640200400689 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CE241E163ED3310030E7F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1CE241F163ED3600030E7F0 /* LYPaintLayerDelegate.h */,
+				E1CE2420163ED3600030E7F0 /* LYPaintLayerDelegate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E1F521811624640200400689 = {
+			isa = PBXGroup;
+			children = (
+				E1F521961624640200400689 /* Lythrum */,
+				E1F5218F1624640200400689 /* Frameworks */,
+				E1F5218D1624640200400689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F5218D1624640200400689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F5218C1624640200400689 /* Lythrum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1F5218F1624640200400689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1CE2417163ECC570030E7F0 /* QuartzCore.framework */,
+				E1F521901624640200400689 /* UIKit.framework */,
+				E1F521921624640200400689 /* Foundation.framework */,
+				E1F521941624640200400689 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F521961624640200400689 /* Lythrum */ = {
+			isa = PBXGroup;
+			children = (
+				E1CE241E163ED3310030E7F0 /* Model */,
+				E1F521B41624713300400689 /* Views */,
+				E1F521AD162466C400400689 /* ViewControllers */,
+				E1F5219F1624640200400689 /* LYAppDelegate.h */,
+				E1F521A01624640200400689 /* LYAppDelegate.m */,
+				E1F521971624640200400689 /* Supporting Files */,
+			);
+			path = Lythrum;
+			sourceTree = "<group>";
+		};
+		E1F521971624640200400689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1F521981624640200400689 /* Lythrum-Info.plist */,
+				E1F521991624640200400689 /* InfoPlist.strings */,
+				E1F5219C1624640200400689 /* main.m */,
+				E1F5219E1624640200400689 /* Lythrum-Prefix.pch */,
+				E1F521A21624640200400689 /* Default.png */,
+				E1F521A41624640200400689 /* Default@2x.png */,
+				E1F521A61624640200400689 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1F521AD162466C400400689 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1F521AE162466D000400689 /* PaintScreen */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1F521AE162466D000400689 /* PaintScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E1F521AF1624672500400689 /* LYPaintScreenViewController.h */,
+				E1F521B01624672500400689 /* LYPaintScreenViewController.m */,
+				E1F521B11624672500400689 /* LYPaintScreenViewController.xib */,
+			);
+			name = PaintScreen;
+			sourceTree = "<group>";
+		};
+		E1F521B41624713300400689 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1F521B51624713C00400689 /* LayerView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E1F521B51624713C00400689 /* LayerView */ = {
+			isa = PBXGroup;
+			children = (
+				E1F521B61624723C00400689 /* LYPaintLayerView.h */,
+				E1F521B71624723C00400689 /* LYPaintLayerView.m */,
+			);
+			name = LayerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1F5218B1624640200400689 /* Lythrum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F521AA1624640200400689 /* Build configuration list for PBXNativeTarget "Lythrum" */;
+			buildPhases = (
+				E1F521881624640200400689 /* Sources */,
+				E1F521891624640200400689 /* Frameworks */,
+				E1F5218A1624640200400689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lythrum;
+			productName = Lythrum;
+			productReference = E1F5218C1624640200400689 /* Lythrum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1F521831624640200400689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = DmitriyShamaev;
+			};
+			buildConfigurationList = E1F521861624640200400689 /* Build configuration list for PBXProject "Lythrum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1F521811624640200400689;
+			productRefGroup = E1F5218D1624640200400689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F5218B1624640200400689 /* Lythrum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1F5218A1624640200400689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F5219B1624640200400689 /* InfoPlist.strings in Resources */,
+				E1F521A31624640200400689 /* Default.png in Resources */,
+				E1F521A51624640200400689 /* Default@2x.png in Resources */,
+				E1F521A71624640200400689 /* Default-568h@2x.png in Resources */,
+				E1F521B31624672500400689 /* LYPaintScreenViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1F521881624640200400689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F5219D1624640200400689 /* main.m in Sources */,
+				E1F521A11624640200400689 /* LYAppDelegate.m in Sources */,
+				E1F521B21624672500400689 /* LYPaintScreenViewController.m in Sources */,
+				E1F521B81624723C00400689 /* LYPaintLayerView.m in Sources */,
+				E1CE2421163ED3600030E7F0 /* LYPaintLayerDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1F521991624640200400689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1F5219A1624640200400689 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1F521A81624640200400689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E1F521A91624640200400689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1F521AB1624640200400689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lythrum/Lythrum-Prefix.pch";
+				INFOPLIST_FILE = "Lythrum/Lythrum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1F521AC1624640200400689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lythrum/Lythrum-Prefix.pch";
+				INFOPLIST_FILE = "Lythrum/Lythrum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1F521861624640200400689 /* Build configuration list for PBXProject "Lythrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F521A81624640200400689 /* Debug */,
+				E1F521A91624640200400689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F521AA1624640200400689 /* Build configuration list for PBXNativeTarget "Lythrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F521AB1624640200400689 /* Debug */,
+				E1F521AC1624640200400689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1F521831624640200400689 /* Project object */;
+}
