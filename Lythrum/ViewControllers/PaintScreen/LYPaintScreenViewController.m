@@ -87,4 +87,8 @@
     }
     return true;
 }
+- (IBAction)scalingLayer:(id)sender {
+    UISlider* scaler = (UISlider*)sender;
+    [_paintView scaleWithNewScaleCoef:scaler.value/100.];
+}
 @end

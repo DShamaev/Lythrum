@@ -16,5 +16,6 @@
 @property(nonatomic, readonly) CALayer *player;
 - (void)clean;
 - (void)needNewPath;
+- (void)scaleWithNewScaleCoef:(float)coef;
 
 @end

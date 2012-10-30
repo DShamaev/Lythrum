@@ -20,5 +20,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *greenColorTextField;
 @property (strong, nonatomic) IBOutlet UITextField *blueColorTextField;
 @property (strong, nonatomic) IBOutlet LYPaintLayerView *paintView;
+- (IBAction)scalingLayer:(id)sender;
 
 @end

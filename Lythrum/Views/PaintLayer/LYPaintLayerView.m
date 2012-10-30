@@ -14,6 +14,7 @@
     CALayer* player;
     CGMutablePathRef signPath;
     LYPaintLayerDelegate* pld;
+    float curr_scale;
 }
 
 - (void)initialization;
@@ -104,7 +105,6 @@
 - (void)needNewPath{
     signPath = CGPathCreateMutable();
     CALayer* nplayer = [CALayer layer];
-    //nplayer.opaque = YES;
     nplayer.delegate = pld;
     nplayer.frame = self.bounds;
     [self.layer insertSublayer:nplayer above:player];
@@ -116,5 +116,8 @@
     [player setNeedsDisplay];
 }
 
+- (void)scaleWithNewScaleCoef:(float)coef{
+    [self.layer setSublayerTransform:CATransform3DMakeScale(coef, coef, 1)];
+}
 
 @end
